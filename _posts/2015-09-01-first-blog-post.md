@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Here you are
+title: My First Blog Post
 ---
 
 I followed [my own lesson](https://github.com/brunogrande/lesson-github-pages/blob/master/lesson/lesson.md) 
