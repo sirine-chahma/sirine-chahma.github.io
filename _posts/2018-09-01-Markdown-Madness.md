@@ -10,15 +10,11 @@ title: Markdown_Madness
 <br></br>
 
 <p style="font-size:60%;"> 
-Je vous parle d'un temps que les moins de vingt ans
-
-**Ne peuvent pas connaître**
-
-*Montmartre* en ce temps-là
-
-Accrochait ses lilas
-
-Jusque sous nos fenêtres
+<br>Je vous parle d'un temps que les moins de vingt ans</br>
+<br>**Ne peuvent pas connaître**</br>
+<br>*Montmartre* en ce temps-là</br>
+<br>Accrochait ses lilas</br>
+<br>Jusque sous nos fenêtres</br>
 
 <span style="color:blue"> Et si l'humble garni</span>
 
