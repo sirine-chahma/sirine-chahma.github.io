@@ -6,7 +6,8 @@ title: Markdown_Madness
 # Markdown_Madnessssssssss
 
 ## Lyrics of a song : 
-
+<br></br>
+<br></br>
 
 Je vous parle d'un temps que les moins de vingt ans
 
@@ -18,7 +19,7 @@ Accrochait ses lilas
 
 Jusque sous nos fenêtres
 
-Et si l'humble garni
+<span style="color:blue"> Et si l'humble garni</span>
 
 Qui nous servait de nid
 
@@ -39,3 +40,5 @@ C'est là qu'on s'est connu
 For the whole lyrics, clic [here](https://www.paroles-musique.com/paroles-Charles_Aznavour-La_Boheme-lyrics,p13407)
 
 clic [here](https://www.youtube.com/watch?v=fVfnEyLOkrM) to listen to the song
+
+<img src="https://media1.tenor.com/images/7ea952528fa112fe5dbced119d216c13/tenor.gif?itemid=8500133" width="250px"/>
