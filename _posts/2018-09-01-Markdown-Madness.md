@@ -5,10 +5,11 @@ title: Markdown_Madness
 
 # Markdown_Madnessssssssss
 
-## Lyrics of a song : 
+### Lyrics of a song : 
 <br></br>
 <br></br>
 
+<p style="font-size:60%;"> 
 Je vous parle d'un temps que les moins de vingt ans
 
 **Ne peuvent pas connaître**
@@ -27,13 +28,13 @@ Ne payait pas de mine
 
 C'est là qu'on s'est connu
 
-> Moi qui criait famine
+Moi qui criait famine
 
 > Et toi qui posais nue
 
 ...
 
- :sunny:
+</p>
 
 ![Montmartre picture](https://s23514.pcdn.co/wp-content/uploads/2017/01/things_to_do_in_montmartre_france-1140x1425.jpg)
 
