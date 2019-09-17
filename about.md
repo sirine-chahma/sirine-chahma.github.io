@@ -1,15 +1,22 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
+My name is Bruno Grande and I'm a graduate student at SFU. 
+I work in Ryan Morin's lab in the Department of Molecular Biology
+and Biochemistry. Despite that, I exclusively do computational biology.
+In essence, I use computation to answer biological questions. In our lab, 
+our questions focus on cancer genomics, a growing field enabled by next-
+generation sequencing. 
 
-### More Information
+## More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Check out my [GitHub page](https://github.com/brunogrande) for some of my 
+open-source projects, and [Twitter](https://twitter.com/grandebruno) for my 
+quick thoughts. 
 
-### Contact me
+## Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[bgrande@sfu.ca](mailto:bgrande@sfu.ca)
