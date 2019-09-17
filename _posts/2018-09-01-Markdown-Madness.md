@@ -7,7 +7,6 @@ title: Markdown_Madness
 
 ### Lyrics of a song : 
 <br>
-<br>
 
 <p style="font-size:60%;"> 
 <br>Je vous parle d'un temps que les moins de vingt ans
@@ -24,7 +23,7 @@ title: Markdown_Madness
 <br>...
 </p>
 
-<br>![Montmartre picture](https://s23514.pcdn.co/wp-content/uploads/2017/01/things_to_do_in_montmartre_france-1140x1425.jpg)
+<img src="https://s23514.pcdn.co/wp-content/uploads/2017/01/things_to_do_in_montmartre_france-1140x1425.jpg" width="250px"/>
 
 <br>For the whole lyrics, clic [here](https://www.paroles-musique.com/paroles-Charles_Aznavour-La_Boheme-lyrics,p13407)
 
