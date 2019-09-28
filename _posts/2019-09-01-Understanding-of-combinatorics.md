@@ -10,17 +10,17 @@ Combinatorics
  <br>
  
  
-First of all, we have to understand what this symbol $ {n}\choose{k}$ , termed as a **binomial coefficient**, means :  <img src="http://latex.codecogs.com/svg.latex?{n}\choose{k}" border="0"/>
+First of all, we have to understand what this symbol <img src="http://latex.codecogs.com/svg.latex?{n}\choose{k}" border="0"/> , termed as a **binomial coefficient**, means :  
    
    <br>
  <br>
-    Understanding of binomial coefficients,
+    **Understanding of binomial coefficients**
  <br>
  <br>
     Imagine you have 2 extra tickets for a concert (let's say Beyonce's). After listing all the people you could take with you, you managed to reduce the list to 3 people. You still hesitate between 3 of your friends, called Alice, Betty and Caro. How many different groups of 2 people can you make with your 3 friends?
  <br>
  <br>
-    You can invite either :,
+    You can invite either :
  <br>
  <br>
     * Alice and Betty
@@ -30,13 +30,13 @@ First of all, we have to understand what this symbol $ {n}\choose{k}$ , termed a
     * Betty and Caro
  <br>
  <br>
-    We can see that there are 3 different ways to choose the 2 friends coming with you to the concert among your 3 friends. The number of different groups of 2 people you can make with 3 people is  called \"3 choose 2\". It is represented by this symbol $3\\choose 2$ and it is equal to 3 here.
+    We can see that there are 3 different ways to choose the 2 friends coming with you to the concert among your 3 friends. The number of different groups of 2 people you can make with 3 people is  called "3 choose 2". It is represented by this symbol <img src="http://latex.codecogs.com/svg.latex?{3}\choose{2}" border="0"/> and it is equal to 3 here.
  <br>
  <br>
-    This notion can easily be generalized. The size of the sample we want to isolate is usually called \"k\" (in our case, 2 friends). The total amount of elements we have is often named \"n\" (3 friends in our example).
+    This notion can easily be generalized. The size of the sample we want to isolate is usually called "k" (in our case, 2 friends). The total amount of elements we have is often named \"n\" (3 friends in our example).
  <br>
  <br>
-    As we can see, a binomial coefficient is represented by $n\choose k$ and is read \"n choose k\". It represents the number of ways you can chose k elements among n elements.
+    As we can see, a binomial coefficient is represented by <img src="http://latex.codecogs.com/svg.latex?{n}\choose{k}" border="0"/> and is read \"n choose k\". It represents the number of ways you can chose k elements among n elements.
  <br>
  <br>
     Now that we all know what a binomial coefficient is, let's demonstrate Pascal's formula using combinatorics.
@@ -45,22 +45,24 @@ First of all, we have to understand what this symbol $ {n}\choose{k}$ , termed a
     *Pascal's formula*
  <br>
  <br>
-    The formula we are going to demonstrate is the following one : ${n}\\choose{k}$ = ${n-1}\\choose{k}$ + ${n-1}\\choose{k-1} $.
+    The formula we are going to demonstrate is the following one :<img src="http://latex.codecogs.com/svg.latex?{n}\choose{k}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{n-1}\choose{k}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{n-1}\choose{k-1}" border="0"/>.
  <br>
  <br>
     Let's say we have 6 (here n=6) marbles in front of us.
   <br>
  <br>
-    <img src=\"https://github.ubc.ca/MDS-2019-20/DSCI_542_lab2_chahma/blob/master/Pictures/6%20circles%20beginning.JPG?raw=true\" width=\"300px\"/>
+    <img src="https://github.ubc.ca/MDS-2019-20/DSCI_542_lab2_chahma/blob/master/Pictures/6%20circles%20beginning.JPG?raw=true\" width= "300px">
+
+    
     <br>
  <br>
-    We can only keep 3 of those 6 marbles (k=3), and put them in a bag. The number of possibilities we have to choose those 3 marbles among the 6 we have is ${6}\\choose{3}$ = ${n}\\choose{k}$. 
+    We can only keep 3 of those 6 marbles (k=3), and put them in a bag. The number of possibilities we have to choose those 3 marbles among the 6 we have is <img src="http://latex.codecogs.com/svg.latex?{6}\choose{3}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{n}\choose{k}" border="0"/>. 
  <br>
  <br>
     First of all, we take one marble in our hand, whichever we want, the green one for instance.
  <br>
  <br>
-    <img src=\"https://github.ubc.ca/MDS-2019-20/DSCI_542_lab2_chahma/blob/master/Pictures/choose%20one%20marble.JPG?raw=true\" width=\"300px\"/>
+    <img src="https://github.ubc.ca/MDS-2019-20/DSCI_542_lab2_chahma/blob/master/Pictures/choose%20one%20marble.JPG?raw=true\" width="300px">
    <br>
  <br>
     We have two possible choices : keep it and put it in the bag or don't keep it and throw it away.
@@ -72,10 +74,10 @@ First of all, we have to understand what this symbol $ {n}\choose{k}$ , termed a
     Let's imagine that we put the green marble in the bag.
     <br>
  <br>
-    <img src=\"https://github.ubc.ca/MDS-2019-20/DSCI_542_lab2_chahma/blob/master/Pictures/marble%20kept.JPG?raw=true\" width=\"300px\"/>
+    <img src="https://github.ubc.ca/MDS-2019-20/DSCI_542_lab2_chahma/blob/master/Pictures/marble%20kept.JPG?raw=true\" width="300px">
   <br>
  <br>
-   Now, we only have to choose 2 (here, 2=k-1) more marbles among the 5 remaining (here 5=n-1). So we still have ${5}\\choose{2}$ = ${n-1}\\choose{k-1}$ ways to choose the 2 last marbles. 
+   Now, we only have to choose 2 (here, 2=k-1) more marbles among the 5 remaining (here 5=n-1). So we still have <img src="http://latex.codecogs.com/svg.latex?{5}\choose{2}" border="0"/> =<img src="http://latex.codecogs.com/svg.latex?{n-1}\choose{k-1}" border="0"/> ways to choose the 2 last marbles. 
      <br>
  <br>
     * Second choice : not keeping the green marble
@@ -84,25 +86,25 @@ First of all, we have to understand what this symbol $ {n}\choose{k}$ , termed a
     Imagine that this time we don't decide to keep the green marble and throw it away.
     <br>
  <br>
-    <img src=\"https://github.ubc.ca/MDS-2019-20/DSCI_542_lab2_chahma/blob/master/Pictures/Marble%20not%20kept.JPG?raw=true\" width=\"300px\"/>
+    <img src="https://github.ubc.ca/MDS-2019-20/DSCI_542_lab2_chahma/blob/master/Pictures/Marble%20not%20kept.JPG?raw=true\" width="300px"/>
  <br>
  <br>
-    We still have to choose 3 (here k=3) marbles, but there are only 5 (here n-1=5) remaining marbles on the table. Therefore, we now have ${5}\\choose{3}$ = ${n-1}\\choose{k}$ ways to choose 3 marbles.
+    We still have to choose 3 (here k=3) marbles, but there are only 5 (here n-1=5) remaining marbles on the table. Therefore, we now have <img src="http://latex.codecogs.com/svg.latex?{5}\choose{3}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{n-1}\choose{k}" border="0"/> ways to choose 3 marbles.
     
  <br>
  <br>
-    Overall, in order to find out the number of ways we have to choose 3 marbles among 6, we just have to sum the number of possibilities we had when we kept the green marble and the number of possibilities we had when we didn't keep the green marble. In a more formal way, we can write it : ${6}\\choose{3}$ = ${5}\\choose{3}$ + ${5}\\choose{2}$. If we keep using this relation on each term of the sum, it gives : ${6}\\choose{3}$ = ${4}\\choose{3}$ + ${4}\\choose{2}$ + ${4}\\choose{1}$ + ${4}\\choose{2}$. Or :
+    Overall, in order to find out the number of ways we have to choose 3 marbles among 6, we just have to sum the number of possibilities we had when we kept the green marble and the number of possibilities we had when we didn't keep the green marble. In a more formal way, we can write it : <img src="http://latex.codecogs.com/svg.latex?{6}\choose{3}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{5}\choose{3}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{n5choose{2}" border="0"/>. If we keep using this relation on each term of the sum, it gives :<img src="http://latex.codecogs.com/svg.latex?{6}\choose{3}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{4}\choose{3}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{4}\choose{2}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{4}\choose{1}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{4}\choose{2}" border="0"/>. Or :
    <br>
  <br>
-    * ${4}\\choose{3}$ = ${3}\\choose{3}$ + ${3}\\choose{2}$ = 1 + 3 = 4 (there is one way to choose 3 elements among 3, and we showed before that ${3}\\choose{2}$ = 3)
-    * ${4}\\choose{2}$ = ${3}\\choose{2}$ + ${3}\\choose{1}$ = 3 + 3 = 6 (we showed before that ${3}\\choose{2}$ = 3 and there are 3 ways to choose 1 element among 3)
-    * ${4}\\choose{1}$ = 4 (there are 4 ways to choose 1 element among 4) 
+    *<img src="http://latex.codecogs.com/svg.latex?{4}\choose{3}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{3}\choose{3}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{3}\choose{2}" border="0"/> = 1 + 3 = 4 (there is one way to choose 3 elements among 3, and we showed before that <img src="http://latex.codecogs.com/svg.latex?{3}\choose{2}" border="0"/> = 3)
+    * <img src="http://latex.codecogs.com/svg.latex?{4}\choose{2}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{3}\choose{3}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{3}\choose{1}" border="0"/> = 3 + 3 = 6 (we showed before that <img src="http://latex.codecogs.com/svg.latex?{3}\choose{2}" border="0"/> = 3 and there are 3 ways to choose 1 element among 3)
+    * <img src="http://latex.codecogs.com/svg.latex?{4}\choose{1}" border="0"/> = 4 (there are 4 ways to choose 1 element among 4) 
     <br>
  <br>
-    So ${6}\\choose{3}$ = 4 + 6 + 4 + 6 = 20 
+    So <img src="http://latex.codecogs.com/svg.latex?{6}\choose{3}" border="0"/> = 4 + 6 + 4 + 6 = 20 
    <br>
  <br>
-    The general formula we demonstrated is ${n}\\choose{k}$ = ${n-1}\\choose{k}$ + ${n-1}\\choose{k-1} $.
+    The general formula we demonstrated is <img src="http://latex.codecogs.com/svg.latex?{n}\choose{k}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{n-1}\choose{k-1}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{n-1}\choose{k}" border="0"/>.
      <br>
  <br>
     This is it, we have proved Pascal's formula! You can notice that we did it without writing any complicated equations, just by understanding the formula and counting the elements we had. The way we demonstrated this formula is combinatorics and and it is totally valid to do that. 
