@@ -8,12 +8,9 @@ Combinatorics
  In many people's minds, mathematics is a complex world full of unreadable equations and notations that that hardly anyone understands. What if I told you that resolving a problem or demonstrating a formula can also be done with (almost) no numbers and no equations, just by using some words, your logic and your ability to count? Counting elements (cows, cards or balls for instance) to solve a problem is a real area of mathematics called **combinatorics**. If you don't understand how counting elements can help us with solving mathematical problems, no worries, that is the purpose of this blog post. To make you understand what combinatorics is, we are going to demonstrate a statistic formula. You will see how useful counting can be.
  <br>
  <br>
-    The formula we will prove is called **Pascal's formula** : <b> $$ {n}\\choose{k}$ = ${n-1}\\choose{k}$ + ${n-1}\\choose{k-1} $$ </b>,
  
-<br>
-<br>
  
-    First of all, we have to understand what this symbol $ {n}\\choose{k}$, termed as a **binomial coefficient**, means :  
+First of all, we have to understand what this symbol $ {n}\choose{k}$ , termed as a **binomial coefficient**, means :  <img src="http://latex.codecogs.com/svg.latex?{n}\choose{k}" border="0"/>
    
    <br>
  <br>
@@ -39,7 +36,7 @@ Combinatorics
     This notion can easily be generalized. The size of the sample we want to isolate is usually called \"k\" (in our case, 2 friends). The total amount of elements we have is often named \"n\" (3 friends in our example).
  <br>
  <br>
-    As we can see, a binomial coefficient is represented by $n\\choose k$ and is read \"n choose k\". It represents the number of ways you can chose k elements among n elements.
+    As we can see, a binomial coefficient is represented by $n\choose k$ and is read \"n choose k\". It represents the number of ways you can chose k elements among n elements.
  <br>
  <br>
     Now that we all know what a binomial coefficient is, let's demonstrate Pascal's formula using combinatorics.
