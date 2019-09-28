@@ -1,3 +1,8 @@
+---
+layout: post
+title: Understanding of combinatorics
+---
+
 "In many people's minds, mathematics is a complex world full of unreadable equations and notations that that hardly anyone understands. What if I told you that resolving a problem or demonstrating a formula can also be done with (almost) no numbers and no equations, just by using some words, your logic and your ability to count? Counting elements (cows, cards or balls for instance) to solve a problem is a real area of mathematics called **combinatorics**. If you don't understand how counting elements can help us with solving mathematical problems, no worries, that is the purpose of this blog post. To make you understand what combinatorics is, we are going to demonstrate a statistic formula. You will see how useful counting can be.\n",
     "\n",
     "The formula we will prove is called **Pascal's formula** : <b> $ {n}\\choose{k}$ = ${n-1}\\choose{k}$ + ${n-1}\\choose{k-1} $ </b>\n",
