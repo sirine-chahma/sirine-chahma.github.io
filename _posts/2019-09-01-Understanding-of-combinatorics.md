@@ -54,7 +54,7 @@ First of all, we have to understand what this symbol <img src="http://latex.code
     <img src="https://github.ubc.ca/MDS-2019-20/DSCI_542_lab2_chahma/blob/master/Pictures/6%20circles%20beginning.JPG?raw=true\" width= "300px">
 
     
-    <br>
+ <br>
  <br>
     We can only keep 3 of those 6 marbles (k=3), and put them in a bag. The number of possibilities we have to choose those 3 marbles among the 6 we have is <img src="http://latex.codecogs.com/svg.latex?{6}\choose{3}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{n}\choose{k}" border="0"/>. 
  <br>
@@ -93,11 +93,15 @@ First of all, we have to understand what this symbol <img src="http://latex.code
     
  <br>
  <br>
-    Overall, in order to find out the number of ways we have to choose 3 marbles among 6, we just have to sum the number of possibilities we had when we kept the green marble and the number of possibilities we had when we didn't keep the green marble. In a more formal way, we can write it : <img src="http://latex.codecogs.com/svg.latex?{6}\choose{3}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{5}\choose{3}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{n5choose{2}" border="0"/>. If we keep using this relation on each term of the sum, it gives :<img src="http://latex.codecogs.com/svg.latex?{6}\choose{3}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{4}\choose{3}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{4}\choose{2}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{4}\choose{1}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{4}\choose{2}" border="0"/>. Or :
+    Overall, in order to find out the number of ways we have to choose 3 marbles among 6, we just have to sum the number of possibilities we had when we kept the green marble and the number of possibilities we had when we didn't keep the green marble. In a more formal way, we can write it : <img src="http://latex.codecogs.com/svg.latex?{6}\choose{3}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{5}\choose{3}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{5}\choose{2}" border="0"/>. If we keep using this relation on each term of the sum, it gives :<img src="http://latex.codecogs.com/svg.latex?{6}\choose{3}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{4}\choose{3}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{4}\choose{2}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{4}\choose{1}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{4}\choose{2}" border="0"/>. Or :
    <br>
  <br>
     *<img src="http://latex.codecogs.com/svg.latex?{4}\choose{3}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{3}\choose{3}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{3}\choose{2}" border="0"/> = 1 + 3 = 4 (there is one way to choose 3 elements among 3, and we showed before that <img src="http://latex.codecogs.com/svg.latex?{3}\choose{2}" border="0"/> = 3)
+     <br>
+ <br>
     * <img src="http://latex.codecogs.com/svg.latex?{4}\choose{2}" border="0"/> = <img src="http://latex.codecogs.com/svg.latex?{3}\choose{3}" border="0"/> + <img src="http://latex.codecogs.com/svg.latex?{3}\choose{1}" border="0"/> = 3 + 3 = 6 (we showed before that <img src="http://latex.codecogs.com/svg.latex?{3}\choose{2}" border="0"/> = 3 and there are 3 ways to choose 1 element among 3)
+     <br>
+ <br>
     * <img src="http://latex.codecogs.com/svg.latex?{4}\choose{1}" border="0"/> = 4 (there are 4 ways to choose 1 element among 4) 
     <br>
  <br>
